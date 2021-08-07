@@ -1,3 +1,5 @@
+'use strict';
+
 (function(baseCode) {
 	baseCode(window.jQuery, window, document);
 }(function($, window, document) {
