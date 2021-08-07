@@ -4,9 +4,6 @@
 	baseCode(window.jQuery, window, document);
 }(function($, window, document) {
 	$(function() {
-
-		setFooter();
-		hideWaitSymbol();
 		
 		// Button Clicks
 
