@@ -2,6 +2,44 @@
 Description: Personal Website
 Author: Tim Savage
 */
-body {
-    margin: auto 0;
+html, body {
+    margin: 0;
+    height: 100%;
 }
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-size: calc(40 / 16)rem;
+    font-family: 'Georama', sans-serif;
+    font-weight: normal;
+}
+
+h1, h2 {
+    color: #66BFBF;
+}
+
+h3, a {
+    color: #11999E;
+}
+
+
+/* practice div classes */
+.red {
+   width: 20px;
+   height: 20px;
+   background-color: red;
+   position: relative; 
+}
+
+/*
+    font-family: 'Georama', sans-serif;
+
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-family: 'Sacramento', cursive;
+*/
