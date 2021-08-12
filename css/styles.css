@@ -5,6 +5,9 @@ Author: Tim Savage
 html, body {
     margin: 0;
     height: 100%;
+    background-image: url(../images/bg-dark.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 h1 {
     font-size: 5.625rem;
@@ -18,20 +21,19 @@ h2{
 }
 
 h1, h2 {
-    color: #66BFBF;
+    color: #FFF;
+}
+h2 {
+    color: rgba(255,255,255,0.75);
 }
 
 h3, a {
     color: #11999E;
 }
 
-
-/* practice div classes */
-.red {
-   width: 20px;
-   height: 20px;
-   background-color: red;
-   position: relative; 
+/* Navbar Styles */
+.navbar a {
+    color: white;
 }
 
 /*
@@ -43,3 +45,17 @@ h3, a {
 
     font-family: 'Sacramento', cursive;
 */
+
+/* Testimonials Section */
+#header {
+    height: 500px;
+    background-color: transparent;
+}
+#testimonials {
+    height: 500px;
+    background-color: white;
+}
+#footer {
+    height: 150px;
+    background-color: grey;
+}
