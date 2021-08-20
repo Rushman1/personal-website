@@ -54,8 +54,25 @@ h3, a {
 #testimonials {
     height: 500px;
     background-color: white;
+    position: relative;
 }
 #footer {
     height: 150px;
     background-color: grey;
+}
+
+/* Box Animation */
+.box {
+    position: absolute;
+}
+
+/* Popover Styles */
+.popover-footer {
+    padding: .5rem 1rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    background-color: #F0F0F0;
+    border-top: 1px solid rgba(0,0,0,.2);
+    border-bottom-left-radius: calc(.3rem - 1px);
+    border-bottom-right-radius: cacl(.3rem - 1px);
 }
